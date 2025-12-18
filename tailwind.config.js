@@ -8,7 +8,20 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: {
+          light: '#CA8A03',
+          'light-hover': '#EAB305',
+          dark: '#FACC14',
+          'dark-active': '#CA8A03',
+        },
+        background: {
+          dark: '#09090B',
+          'dark-navbar': '#18181B',
+        },
+      },
+    },
   },
   plugins: [],
 };
