@@ -13,14 +13,14 @@ import {
   MessageCircle,
   Zap,
   ChevronDown,
+  LucideIcon,
 } from "lucide-react";
-import Image from "next/image";
 
 interface NavItem {
   name: string;
   href: string;
   count?: number;
-  icon: any;
+  icon: LucideIcon;
 }
 
 interface NavSection {
